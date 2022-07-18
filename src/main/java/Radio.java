@@ -5,8 +5,7 @@ public class Radio {
     public void nextStation() {
         if (currentStation < 9) {
             currentStation++;
-        }
-        else {
+        } else {
             currentStation = 0;
         }
     }
@@ -14,8 +13,7 @@ public class Radio {
     public void prevStation() {
         if (currentStation > 0) {
             currentStation--;
-        }
-        else {
+        } else {
             currentStation = 9;
         }
     }
@@ -25,6 +23,7 @@ public class Radio {
             currentVolume++;
         }
     }
+
     public void decreaseVolume() {
         if (currentVolume > 0) {
             currentVolume--;
